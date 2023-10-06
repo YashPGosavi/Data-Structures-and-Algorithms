@@ -9,6 +9,7 @@ public class _16_superKeyword {
     public static void main(String[] args) {
 
         child c = new child();
+        c.end();
 
     }
 }
@@ -27,5 +28,9 @@ class child extends parent {
     child() {
         super();
         System.out.println("child class constructor");
+    }
+
+    public void end(){
+        System.out.println("End");
     }
 }

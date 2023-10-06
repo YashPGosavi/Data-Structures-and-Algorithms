@@ -48,6 +48,7 @@ public class _3_dfsInJava {
         }
     }
     public static void main(String[] args) {
+        
 /*
             
         0 ------ 1
@@ -61,6 +62,7 @@ public class _3_dfsInJava {
              4
 */
         int vertex = 5;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[vertex];
         
         for(int i=0;i<vertex;i++){

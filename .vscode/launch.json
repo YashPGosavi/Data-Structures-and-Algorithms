@@ -6,6 +6,160 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_3_fractionalKnapsack",
+            "request": "launch",
+            "mainClass": "_3_fractionalKnapsack",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_5_peekInHeap",
+            "request": "launch",
+            "mainClass": "_5_peekInHeap",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_6_deleteFromHeap",
+            "request": "launch",
+            "mainClass": "_6_deleteFromHeap",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_1_priorityQueue",
+            "request": "launch",
+            "mainClass": "_1_priorityQueue",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_3_insertionSort",
+            "request": "launch",
+            "mainClass": "_3_insertionSort",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_6_detectCycle",
+            "request": "launch",
+            "mainClass": "_6_detectCycle",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_5_printPath",
+            "request": "launch",
+            "mainClass": "_5_printPath",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_8_mirrorBST",
+            "request": "launch",
+            "mainClass": "_8_mirrorBST",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_9_sortedArrayBST",
+            "request": "launch",
+            "mainClass": "_9_sortedArrayBST",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_5_printInRange",
+            "request": "launch",
+            "mainClass": "_5_printInRange",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_3_comparibleAndComparator",
+            "request": "launch",
+            "mainClass": "_3_comparibleAndComparator",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_2_streamAPI",
+            "request": "launch",
+            "mainClass": "_2_streamAPI",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_10_topViewOfTree",
+            "request": "launch",
+            "mainClass": "_10_topViewOfTree",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_4_findPermutation",
+            "request": "launch",
+            "mainClass": "_4_findPermutation",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_4_implementationHashMap",
+            "request": "launch",
+            "mainClass": "_4_implementationHashMap",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_9_interleaveTwoHalvesOfAQueue",
+            "request": "launch",
+            "mainClass": "_9_interleaveTwoHalvesOfAQueue",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_7_stackUsingQueue",
+            "request": "launch",
+            "mainClass": "_7_stackUsingQueue",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_4_queueUsingLL",
+            "request": "launch",
+            "mainClass": "_4_queueUsingLL",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_2_queueUsingArray",
+            "request": "launch",
+            "mainClass": "_2_queueUsingArray",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_11_duplicateParanthesis",
+            "request": "launch",
+            "mainClass": "_11_duplicateParanthesis",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_9_nextGreaterElement",
+            "request": "launch",
+            "mainClass": "_9_nextGreaterElement",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_7_reverseStack",
+            "request": "launch",
+            "mainClass": "_7_reverseStack",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
             "name": "_1_detectCycleInLL",
             "request": "launch",
             "mainClass": "_1_detectCycleInLL",

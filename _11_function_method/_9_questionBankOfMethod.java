@@ -29,7 +29,7 @@
 
 
 // Question 3 : Write a Java program to check if a number is a palindrome in Java? ( 121 is a palindrome, 321 is not)
-public class _9_questionBank{
+public class _9_questionBankOfMethod{
     public static void ispalin(int n){
         int palindrome=0;
         int input = n;

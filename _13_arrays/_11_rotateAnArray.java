@@ -57,9 +57,9 @@ public class _11_rotateAnArray {
         int K = 2;
 
         K = K%N;
-        rotate(arr, 0, N-K-1);
-        rotate(arr, N-K, N-1);
-        rotate(arr, 0,N-1);
+        // rotate(arr, 0, N-K-1);
+        // rotate(arr, N-K, N-1);
+        // rotate(arr, 0,N-1);
 
             for (int i = 0; i < N; i++) {
             System.out.print(arr[i] + " ");

@@ -5,7 +5,7 @@ Method Overriding / Function Overriding :- Parent and child classes both contain
  */
 public class _10_methodOverriding {
     public static void main(String[] args) {
-        Animal a = new Animal();
+        Animals a = new Animals();
         a.eat();
 
         Deer d = new Deer();
@@ -13,13 +13,13 @@ public class _10_methodOverriding {
     }
 }
 
-class Animal{
+class Animals{
     void eat(){
         System.out.println("Eat anything");
     }
 }
 
-class Deer extends Animal{
+class Deer extends Animals {
     @Override
     void eat(){
         System.out.println("Eat grass");

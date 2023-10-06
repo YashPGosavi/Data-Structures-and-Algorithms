@@ -1,6 +1,7 @@
 /*
  Class cann't be private or protected.
  */
+
 public class _1_ClassObject {
     public static void main(String[] args) {
          ColorPen p = new ColorPen(); // creating class object
@@ -35,4 +36,5 @@ public class _1_ClassObject {
     void claculatePercentage(int phy, int chem, int math){
         percentage = (phy+chem+math)/3;
     }
+
  }

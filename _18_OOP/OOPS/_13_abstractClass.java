@@ -19,8 +19,8 @@ public class _13_abstractClass {
         k.walk();
         System.out.println(k.color);
 
-        Mustang m =  new Mustang();
-        // Animal-->Hourse -->Mustang
+        // Mustang m =  new Mustang();
+        // Animal-->Hourse --> Mustang
         /*
             Animal Constructor call
             Hourse constructor call
@@ -30,7 +30,7 @@ public class _13_abstractClass {
     }
 }
 
-abstract class Animal{
+abstract class Animal {
 
     String color;
 
@@ -47,7 +47,7 @@ abstract class Animal{
 }
 
 
-class Hourse extends Animal{
+class Hourse extends Animal {
 
     Hourse(){
         System.out.println("Hourse constructor call");
@@ -66,7 +66,7 @@ class Mustang extends Hourse{
     }
 }
 
-class Kangaru extends Animal{
+class Kangaru extends Animal {
     void changeColor(){
         color="Light Brown";
     }

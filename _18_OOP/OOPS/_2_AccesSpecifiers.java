@@ -1,5 +1,3 @@
-import javax.swing.plaf.multi.MultiButtonUI;
-
 /*
 
    Access Modifier      within class    within package      outside package by subclass          only outside package
@@ -34,6 +32,8 @@ public class _2_AccesSpecifiers {
         Bank myBank = new Bank();
         myBank.username="Yash";
         myBank.setPassword("abcdefghi");
+
+        myBank.transaction("sd");
     }
     
 }
@@ -43,7 +43,15 @@ class Bank{
     private String password;
 
     public void setPassword(String pwd){
-        password=pwd;
+        this.password=pwd;
+    }
+
+    public void transaction(String pwd){
+        if(pwd == password){
+            System.out.println("Password is correct");
+        }else{
+            System.out.println("Incorrect Password");
+        }
     }
 
 }

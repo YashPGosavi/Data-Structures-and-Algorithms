@@ -124,6 +124,7 @@ public class _1_introductionAndImplementGraph {
          */
 
         int vertex = 5;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[vertex];
 
         for(int i=0;i<vertex;i++){

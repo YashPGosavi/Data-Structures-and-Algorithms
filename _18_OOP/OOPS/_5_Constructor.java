@@ -16,8 +16,8 @@ Constructor Overloading :- More than One Constructor present in the class having
 
 public class _5_Constructor {
     public static void main(String[] args) {
-        Student S1 = new Student();  // Non Parameterised Constructor.
-        Student S2 = new Student("Yash", 55);  // Parameterised Constructor.
+        // Student_info S1 = new Student_info();  // Non Parameterised Constructor.
+        Student_info S2 = new Student_info("Yash", 55);  // Parameterised Constructor.
         S2.marks[0]=45;
         S2.marks[1]=76;
         S2.marks[2]=34;
@@ -42,25 +42,25 @@ public class _5_Constructor {
 
     }
 }
-class Student {
+class Student_info {
     String name;
     int rollNo;
     String password;
     int marks[];
 
-    Student() { // Non Parameterised Constructor.
+    Student_info() { // Non Parameterised Constructor.
         marks = new int[3];
         System.out.println("Non Parameterised Constructor. is called.");
         }
 
-    Student(String name, int rollNo) { // Parameterised Constructor.
+    Student_info(String name, int rollNo) { // Parameterised Constructor.
         marks = new int[3];
         this.name = name;
         this.rollNo = rollNo;
         System.out.println(name + " : " + rollNo);
     }
 
-    Student(Student_info S3){ // Copy Constructor.
+    Student_info(Student_info S3){ // Copy Constructor.
         marks = new int[3];
         this.name=S3.name;
         this.rollNo=S3.rollNo;

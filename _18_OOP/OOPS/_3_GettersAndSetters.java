@@ -15,7 +15,7 @@ public class _3_GettersAndSetters {
     }
 }
 
-class Pen {
+class ColorPen {
     private String color;
     private double tip;
 

@@ -37,20 +37,20 @@ Que. Print INVERTED-STAR pattern
 
  */
 
-// public class _1_pattern{
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         System.out.println("Enter value of n : ");
-//         int n = sc.nextInt();
-//         for(int i=1;i<=n;i++){ // column
-//             for(int j=i;j<=n;j++){ // row
-//                 System.out.print("* ");
-//             }
-//             System.out.println();
-//         }
-//         sc.close();
-//     }
-// }
+public class _1_pattern{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter value of n : ");
+        int n = sc.nextInt();
+        for(int i=1;i<=n;i++){ // column
+            for(int j=i;j<=n;j++){ // row
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
 
 /*
 Que. Print HALF-PYRAMID pattern
@@ -90,19 +90,19 @@ G H E J
 
  */
 
- public class _1_pattern{
-        public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Enter value of n : ");
-            int n = sc.nextInt();
-            char A = 'A';
-            for(int i=1;i<=n;i++){
-                for(int j=1;j<=i;j++){
-                    System.out.print(A+" ");
-                    A++;
-                }
-                System.out.println();
-            }
-            sc.close();
-        }
-    }
+//  public class _1_pattern{
+//         public static void main(String[] args) {
+//             Scanner sc = new Scanner(System.in);
+//             System.out.println("Enter value of n : ");
+//             int n = sc.nextInt();
+//             char A = 'A';
+//             for(int i=1;i<=n;i++){
+//                 for(int j=1;j<=i;j++){
+//                     System.out.print(A+" ");
+//                     A++;
+//                 }
+//                 System.out.println();
+//             }
+//             sc.close();
+//         }
+//     }

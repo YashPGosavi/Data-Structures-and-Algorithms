@@ -6,7 +6,6 @@ public class _11_CompareStrings {
         int i=0;
         while(n<=str1.length()){
             if(str2.equals(str1.substring(i,n))){
-                System.out.println(str1.substring(i,n)+ i + " "+ n);
                 ans ++;
             }
             n++;
@@ -16,9 +15,9 @@ public class _11_CompareStrings {
     }
 
     public static void main(String[] args) {
-        String str1 = "ansisthebestansoftheworldans";
+        String str1 = "ansisthebestansoftheworldansans";
         String str2 = "ans";
-        System.out.println(str1.length());
         System.out.println(stringCompress(str1, str2));
     }
+
 }
